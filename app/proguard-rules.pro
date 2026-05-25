@@ -1,0 +1,3 @@
+-keep class com.pixelrooter.data.model.** { *; }
+-keepclassmembers class * implements android.os.Parcelable { *; }
+-keep class com.pixelrooter.domain.exploit.ExploitEngine { *; }

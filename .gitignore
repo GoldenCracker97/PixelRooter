@@ -1,0 +1,20 @@
+*.iml
+.gradle/
+local.properties
+.idea/
+.DS_Store
+build/
+captures/
+*.jks
+*.keystore
+
+# Binary assets ignored (populated by scripts/prepare_assets.py before build)
+app/src/main/assets/magiskboot/*
+!app/src/main/assets/magiskboot/.gitkeep
+app/src/main/assets/magisk/*
+!app/src/main/assets/magisk/.gitkeep
+app/src/main/assets/exploits/*
+!app/src/main/assets/exploits/.gitkeep
+
+# Gitignored prebuilt JNI library (built from app/src/main/cpp/)
+app/src/main/jniLibs/

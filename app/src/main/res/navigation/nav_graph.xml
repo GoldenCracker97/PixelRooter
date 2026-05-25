@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.pixelrooter.ui.home.HomeFragment"
+        android:label="PixelRooter">
+        <action
+            android:id="@+id/action_home_to_root"
+            app:destination="@id/rootFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/rootFragment"
+        android:name="com.pixelrooter.ui.root.RootFragment"
+        android:label="Rooting">
+        <action
+            android:id="@+id/action_root_to_result"
+            app:destination="@id/resultFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.pixelrooter.ui.result.ResultFragment"
+        android:label="Done" />
+
+</navigation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PixelRooter</string>
+    <string name="btn_root_device">Root My Device</string>
+    <string name="btn_retry">Go Back</string>
+    <string name="btn_start">Start Rooting</string>
+    <string name="label_model">Device</string>
+    <string name="label_root_status">Root Status</string>
+    <string name="label_exploit_status">Exploit</string>
+    <string name="rooting_complete">Rooting Complete</string>
+    <string name="rooting_complete_subtitle">Magisk has been installed. Your device will reboot now.</string>
+    <string name="error_title">Rooting Failed</string>
+    <string name="loading">Loading device info…</string>
+</resources>
